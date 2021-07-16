@@ -16,7 +16,7 @@ public enum Status {
 		return descricao;
 	}
 	
-	public static Status toEnunum(Integer cod) {
+	public static Status toEnum(Integer cod) {
 		if(cod == null) {
 			return null;
 		}

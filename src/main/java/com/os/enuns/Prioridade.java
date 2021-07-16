@@ -16,7 +16,7 @@ public enum Prioridade {
 		return descricao;
 	}
 	
-	public static Prioridade toEnunum(Integer cod) {
+	public static Prioridade toEnum(Integer cod) {
 		if(cod == null) {
 			return null;
 		}
